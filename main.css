@@ -12,6 +12,22 @@
   padding-left: 175px;
 
 }
+#sesame {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightgray;
+  border-right: 2px solid grey;
+  width: 150px;
+  width: 150px;
+  text-align: right;
+}
+
+#sesame.close {
+  background-color: white;
+  border: none;
+  
+}
 nav {
   position: fixed;
   top: 0;
@@ -20,6 +36,10 @@ nav {
   width: 150px;
   background-color: lightgrey;
   border-right: 2px solid grey;
+}
+
+nav.close {
+  visibility: hidden;
 }
 
  nav ul {
